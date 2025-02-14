@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    row-gap: 25px;
+}
+.parent>.child{
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    background-color:#F2F2F2;  
+}
+.parent>.child>.pact{
+    text-decoration-line: line-through;
+    color:red;
+    margin-top: 3px;
+    font-size: 18px;
+}
+.parent>.child>.porg{
+    color: green;
+    font-size: 20px;
+}
+.parent>.child>img{
+    height: 75%;
+    width: 75%;
+}
+.parent>.child>button{
+ font-size: 16px;
+ margin-top: 6px;
+ padding: 3px;
+}
+
+@media  (min-width: 320px) and (max-width: 767px) 
+{
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .parent{
+        margin-top: 25px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-evenly;
+        row-gap: 25px;
+    }
+    .parent>.child{
+        height: 300px;
+        width: 300px;
+        text-align: center;
+        background-color:#F2F2F2;  
+    }
+    .parent>.child>.pact{
+    
+        font-size: 16px;
+    }
+    .parent>.child>.porg{
+        font-size: 18px;
+    }
+    .parent>.child>img{
+        height: 58%;
+        width: 50%;
+    }
+    .parent>.child>button{
+        font-size: 14px;
+    }
+    
+}
+@media  (min-width: 768px) and (max-width: 1023px)
+{
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .parent{
+        margin-top: 25px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-evenly;
+        row-gap: 25px;
+    }
+    .parent>.child{
+        height: 300px;
+        width: 300px;
+        text-align: center;
+        background-color:#F2F2F2;  
+    }
+    .parent>.child>.pact{
+    
+        font-size: 16px;
+    }
+    .parent>.child>.porg{
+        font-size: 18px;
+    }
+    .parent>.child>img{
+        height: 58%;
+        width: 50%;
+    }
+    .parent>.child>button{
+        font-size: 14px;
+    }
+
+
+
+}
